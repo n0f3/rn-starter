@@ -47,6 +47,12 @@ const HomeScreen = ({ navigation: { navigate } }) => {
           navigate("Text");
         }}
       />
+      <Button
+        title="Go to Box Demo"
+        onPress={() => {
+          navigate("Box");
+        }}
+      />
       {/* <TouchableOpacity onPress={() => {
         props.navigation.navigate('List');
       }}>
